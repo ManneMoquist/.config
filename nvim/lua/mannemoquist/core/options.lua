@@ -1,5 +1,5 @@
 local opt = vim.opt
-vim.g.netrw_liststyle = 3
+vim.g.netrw_liststyle = 0
 
 -- line numbering
 opt.relativenumber = true
@@ -31,4 +31,4 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
-opt.swapfile = false
+opt.swapfile = true
